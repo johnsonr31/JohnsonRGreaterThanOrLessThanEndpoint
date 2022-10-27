@@ -21,7 +21,7 @@ public class GreaterThanController : ControllerBase
         int num2 = 0;
         string result;
         
-        // The two TryParse functions below will convert the inputs in the URL to ints
+        // The two TryParse functions below will convert the inputs in the URL to ints so they can be compared
         Int32.TryParse(number1, out num1);
         Int32.TryParse(number2, out num2);
             // This if statement will check to see if num1 is greater than num2
